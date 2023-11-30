@@ -1,4 +1,4 @@
-const { EventEmitter } = require('events');
+const events = require('events');
 const myEmitter = new EventEmitter();
 
 const users = [
